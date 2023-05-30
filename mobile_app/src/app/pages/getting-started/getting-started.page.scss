@@ -1,0 +1,23 @@
+@import '../../../theme/custom';
+
+ion-content {
+    --ion-background-color: linear-gradient(21.15deg, #ECF0FC 19.88%, #C5D3F8 62.32%);
+}
+
+.login_to_profile {
+    @include stroke(var(--ion-color-primary), 3px);
+}
+
+swiper-container {
+    width: 100vw;
+    height: 80%;
+    left: 0;
+    position: absolute;
+}
+
+swiper-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
